@@ -319,3 +319,38 @@ body{
         height: 130px;
     }
 }
+/* Basic responsive fix */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section, header, footer {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    h1, h2, p {
+        max-width: 100%;
+        overflow-wrap: break-word;
+    }
+}
