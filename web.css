@@ -9,16 +9,14 @@ body{
     display: flex;
     justify-content:flex-end;
     align-items:center;
-    width:100%;
+    width:50%;
     height:100px;
-    gap:20;
     background-color: rgb(240, 240, 240);
     padding:0 30px;
     margin:0;
     gap:20px;
     overflow:hidden;
     box-sizing: border-box;
-    z-index: 1000;
     border-radius: 15px;
 
 
@@ -325,7 +323,7 @@ body{
 }
 
 html, body {
-    width: 90%;
+    width: 10%;
     max-width: 100%;
     margin: 0;
     padding: 0;
@@ -337,12 +335,12 @@ img {
     height: auto;
 }
 
-section, header, footer,.para {
-    max-width: 900%;
+section, header, footer {
+    max-width: 100%;
 }
 
 @media screen and (max-width: 700px) {
-    .images,.menu{
+    .images{
         width: 100%;
         max-width: 100%;
         margin: 0 auto;
