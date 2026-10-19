@@ -205,7 +205,6 @@
     background-color:#410a46;
     overflow: hidden;
 }
-@media(max-width:568px){
 .contact-info{
     position: relative;
     align-items: center;
@@ -224,7 +223,6 @@
     color:white;
     font-size: medium;
     font-size: bold;
-}
 
 }
 .contactus{
