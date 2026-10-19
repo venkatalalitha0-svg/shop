@@ -7,7 +7,7 @@
     display: flex;
     justify-content:flex-end;
     align-items:center;
-    width:100%;
+    width:50%;
     height:100px;
     background-color: rgb(240, 240, 240);
     padding:0 30px;
@@ -16,15 +16,6 @@
     overflow:hidden;
     box-sizing: border-box;
     border-radius: 15px;
-    @media screen and (max-width: 700px) {
-    .images{
-        width: 100%;
-        max-width: 100%;
-        margin: 0 auto;
-        padding: 10px;
-    }
-
-
 }.welcome{
     font-size:60px;
     font-weight:bold;
