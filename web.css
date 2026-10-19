@@ -327,7 +327,7 @@ section, header, footer {
         height:auto;
         padding:8px;
         position:fixed;
-        top:0;
+        top:-90px;
         justify-content:flex-end;
         align-items:center;
          background-color: rgb(240, 240, 240);
